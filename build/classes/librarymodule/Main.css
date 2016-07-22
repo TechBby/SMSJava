@@ -1,0 +1,62 @@
+
+
+#button{
+	-fx-background-radius: 8px;
+	-fx-background-position: center bottom;
+	}
+#button:hover{
+	-fx-border-color: #B0B0B0;
+	-fx-border-radius: 8px;
+	}
+#menu{
+	-fx-background-color: white;
+	-fx-background-radius: 8px;
+	}
+#menu:hover{
+	-fx-background-color: #F0F0F0;
+	-fx-border-radius: 0px;
+	-fx-border-color: #F0F0F0;
+	}
+#panemenu{
+	-fx-border-color: blue;
+	-fx-background-color: yellow;
+	}
+	
+/*Administrator's Page Design*/
+
+#adminMenuButton{
+	-fx-background-color: transparent;
+	-fx-background-insets: 0,1,2,3,0;
+	}
+#adminMenuButton:hover{
+	-fx-background-color:  linear-gradient(to bottom, rgba(254,255,255,1) 0%,rgba(221,241,249,1) 70%,rgba(160,216,239,1) 100%);
+	-fx-background-radius: 8px;
+	}
+
+#adminPane{
+	-fx-background-color: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 50%, #E3EFFF 100%);
+	-fx-border-width: 3px;
+	-fx-border-color: linear-gradient(to left, #ADB6FF 0%, #BDBFFF 50%, #D5D4FF 100%);
+	-fx-border-radius: 8px;
+}
+#adminPane:hover{
+			-fx-background-color: linear-gradient(to top right, #F5F7FF 0%, #FAFBFF 100%, #F3F2FF 100%);
+			-fx-border-radius: 8px;
+			-fx-border-width: 1px;
+			}
+#adminLabel{
+		-fx-background-color: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 40%, #E3EFFF 100%);
+		-fx-background-radius: 8px;
+		}
+#adminLabel:hover{
+		-fx-background-color:  linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 20%, #E3EFFF 100%);
+		}
+#adminTab{
+	-fx-background-color: linear-gradient(to left, #F5F7FF 0%, #FAFBFF 50%, #FAFAFF 100%);
+	}
+#adminSideMenu{
+	-fx-background-color: linear-gradient(to top, #F1E09A 0%, #F1F1F1 100%);
+	}
+#adminSideMenu:hover{
+	-fx-background-color: linear-gradient(to bottom, rgba(243,226,199,1) 0%,rgba(193,158,103,1) 50%,rgba(182,141,76,1) 51%,rgba(233,212,179,1) 100%);
+	}
